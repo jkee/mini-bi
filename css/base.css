@@ -1,0 +1,12 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+#bi-sidebar {
+	padding-top: 20px;
+}
+
+#bi-results {
+  padding-top: 20px;
+}

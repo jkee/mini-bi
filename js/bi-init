@@ -1,0 +1,11 @@
+
+
+var api = new BI.MockAPI();
+
+
+
+var data = api.request();
+var rowHTML = BI.rowTemplate(data.dims, data.metrics);
+console.log(rowHTML);
+BI.injectRows(data);
+BI.injectHead(data);
